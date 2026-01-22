@@ -7,19 +7,19 @@ I'm just making a simple record of my first competing on Kaggle
 
 📌 Project Summary
 This repository contains my solution for the Kaggle House Prices competition. 
-Achieved a final RMSE of **0.12218**, ranking **445/5000+** (Top 9%).
+Achieved a final RMSE of **0.12218**, ranking **445/4788** (Top 9%).
 
-## 🛠️ Key Engineering Features
-- **Robust Pipeline**: Automated numeric/categorical type enforcement to prevent data drift errors.
-- **Advanced FE**: Box-Cox transformation for skewed features and domain-specific feature construction.
-- **Ensemble Architecture**: A weighted blend of LightGBM (Native Categorical support), CatBoost, and Lasso Regression.
+🛠️ Key Engineering Features
+Robust Pipeline: Automated numeric/categorical type enforcement to prevent data drift errors.
+Advanced FE: Box-Cox transformation for skewed features and domain-specific feature construction.
+Ensemble Architecture: A weighted blend of LightGBM (Native Categorical support), CatBoost, and Lasso Regression.
 
 ## 📈 Evolution Path
 | Version | Strategy | CV Score | Rank |
 | :--- | :--- | :--- | :--- |
 | v1 | Baseline Linear | 0.132 | 1900+ |
 | v2 | FE + Outlier Removal | 0.123 | 675 |
-| v3 | **LGBM + Ensemble Blend** | **0.119** | **445** |
+| v3 | LGBM + Ensemble Blend | 0.119 | 445 |
 
 ## 🚀 How to Run
 1. Clone the repo
