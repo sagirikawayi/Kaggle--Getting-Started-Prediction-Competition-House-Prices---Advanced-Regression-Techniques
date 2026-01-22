@@ -10,9 +10,9 @@ This repository contains my solution for the Kaggle House Prices competition.
 Achieved a final RMSE of **0.12218**, ranking **445/4788** (Top 9%).
 
 🛠️ Key Engineering Features
-Robust Pipeline: Automated numeric/categorical type enforcement to prevent data drift errors.
-Advanced FE: Box-Cox transformation for skewed features and domain-specific feature construction.
-Ensemble Architecture: A weighted blend of LightGBM (Native Categorical support), CatBoost, and Lasso Regression.
+- **Robust Pipeline**: Automated numeric/categorical type enforcement to prevent data drift errors.
+- **Advanced FE**: Box-Cox transformation for skewed features and domain-specific feature construction.
+- **Ensemble Architecture**: A weighted blend of LightGBM (Native Categorical support), CatBoost, and Lasso Regression.
 
 📈 Evolution Path
 | Version | Strategy | CV Score | Rank |
