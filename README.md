@@ -26,4 +26,5 @@ Achieved a final RMSE of **0.12218**, ranking **445/4788** (Top 9%).
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the notebook: `House_Price_Prediction.ipynb`
 
-!!!: “Data source: House Prices - Advanced Regression Techniques (Kaggle). Please download data files from Kaggle and place them in the /data folder.”
+!!!: “Data source: House Prices - Advanced Regression Techniques (Kaggle). Please download data files from Kaggle.”
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
